@@ -101,7 +101,7 @@ from playwright.async_api import expect
 #    print(search_tb.input_value())
 #    await async_page.wait_for_timeout(5000)
 
-# page.getByalt_text() to locate an image.
+page.getByalt_text() to locate an image.
 @pytest.mark.asyncio
 async def test_getbyalt_text(async_page):
    await async_page.goto("https://demowebshop.tricentis.com/")
@@ -109,3 +109,4 @@ async def test_getbyalt_text(async_page):
    await expect(img).to_be_visible()
    await img.click()
    await expect(async_page).to_have_url("https://demowebshop.tricentis.com/141-inch-laptop")
+

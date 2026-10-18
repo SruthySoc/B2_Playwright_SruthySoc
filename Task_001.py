@@ -8,3 +8,4 @@ async def test_valid(async_page):
     print(await async_page.title())
     logo = async_page.locator('//*[@id="nav-logo-sprites"]')
     await expect(logo).to_be_visible()
+    print("Test completed")
