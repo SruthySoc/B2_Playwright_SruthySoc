@@ -1,1 +1,1 @@
-# Verified smoke and regression in Task1 and Task2
+# Added Smoke and Regression files separately, please check those.

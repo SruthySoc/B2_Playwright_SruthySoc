@@ -12,3 +12,8 @@ env/
 
 # PyCharm settings
 .idea/
+
+__pycache__/
+.pytest_cache/
+
+*.pyc
